@@ -5,3 +5,5 @@ authors = ["Evin Owen <github@evinowen.net>"]
 edition = "2018"
 
 [dependencies]
+iron = "0.6.1"
+router = "0.6.0"
