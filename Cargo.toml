@@ -1,9 +1,9 @@
 [package]
 name = "space"
 version = "0.1.0"
-authors = ["Evin Owen <github@evinowen.net>"]
+authors = ["Evin Owen <github@evinowen.net>","Greg Lamb <email@greglamb.me>"]
 edition = "2018"
 
 [dependencies]
-iron = "0.6.1"
-router = "0.6.0"
+warp = "0.2.5"
+tokio = { version = "0.2", features = ["macros"] }
